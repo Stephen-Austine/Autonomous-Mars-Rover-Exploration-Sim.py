@@ -1,4 +1,4 @@
-# 🚀 Autonomous Mars Rover Exploration Simulation
+# Autonomous Mars Rover Exploration Simulation
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![AI](https://img.shields.io/badge/AI-Agent--Based-FF6B35?style=for-the-badge)
@@ -9,7 +9,7 @@ A Python-based intelligent agent simulation modelling an autonomous Mars rover e
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [How It Works](#-how-it-works)
@@ -22,7 +22,7 @@ A Python-based intelligent agent simulation modelling an autonomous Mars rover e
 
 ---
 
-## 🌍 Overview
+## Overview
 
 This simulation models a Mars rover agent operating in an environment with four locations. Each location may or may not contain rock samples — determined randomly. The rover autonomously explores, samples rocks where available, avoids re-sampling already-visited locations, and adapts when the environment changes between exploration rounds.
 
@@ -30,7 +30,7 @@ The project is a practical demonstration of a **simple reflex agent** with state
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The Mars environment is initialised with 4 locations, each randomly assigned a condition (rocks present or absent).
 2. The rover performs its **first exploration** — visiting each location, sampling rocks where found, and tracking visited sites.
@@ -40,7 +40,7 @@ The project is a practical demonstration of a **simple reflex agent** with state
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Autonomous-Mars-Rover-Exploration-Sim/
@@ -50,7 +50,7 @@ Autonomous-Mars-Rover-Exploration-Sim/
 
 ---
 
-## 🏗️ Classes & Architecture
+## Classes & Architecture
 
 ### `MarsEnvironment`
 Represents the simulated Mars surface.
@@ -80,7 +80,7 @@ The simulation controller — wires up the environment and agent, and runs the f
 
 ---
 
-## 🖥️ Sample Output
+## Sample Output
 
 ```
 Mars Environment (Before 1st exploration):
@@ -116,7 +116,7 @@ Locations sampled: Location A, Location C, Location B, Location D
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -135,7 +135,7 @@ python Autonomous-Mars-Rover-Exploration-Sim.py
 
 ---
 
-## 🧠 Concepts Demonstrated
+## Concepts Demonstrated
 
 | Concept | Implementation |
 |---|---|
@@ -148,7 +148,7 @@ python Autonomous-Mars-Rover-Exploration-Sim.py
 
 ---
 
-## 🔭 Possible Extensions
+## Possible Extensions
 
 - **Grid-based map** — Replace named locations with an `(x, y)` coordinate grid for spatial navigation
 - **Energy/battery system** — Add a fuel constraint that limits how many locations the rover can visit per round
@@ -161,12 +161,12 @@ python Autonomous-Mars-Rover-Exploration-Sim.py
 
 ---
 
-## 👤 Author
+## Author
 
-**Stephen**
+**Stephen-Austine**
 
 ---
 
-## 📜 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
